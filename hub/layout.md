@@ -1,4 +1,4 @@
 Inspiración de layout:
 
-https://ndo.dev
-https://www.miriamsuzanne.com
+https://www.behance.net/gallery/134012425/PORTAFOLIO?tracking_source=search_projects%7Cportafolio
+
