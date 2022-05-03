@@ -75,3 +75,26 @@ body {
   background-color: var(--white);
   color: var(--black);
 }
+
+/* Home */
+.home {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+/* Menu */
+.menu {
+  display: grid;
+  grid-auto-flow: column;
+}
+/* Logo */
+.logo {
+  font-weight: 80;
+  padding: 1rem;
+}
+/* Portafolio */
+.portafolio {
+  font-size: 110px;
+  text-transform: uppercase;
+  margin-top: auto;
+}
