@@ -94,32 +94,42 @@ body {
 }
 /* Portafolio */
 .portafolio {
-  font-size: 145px;
+  /* font-size: 145px;
+  text-transform: uppercase;
+  margin-top: auto; */
+  font-size: 190px;
   text-transform: uppercase;
   margin-top: auto;
+  line-height: 1.2;
+  text-align: center;
+  margin-block-end: 55px;
+  border-bottom: 2px solid black;
 }
 .proyecto {
   display: flex;
 }
-.proyecto >* {
-  flex:1;
+.proyecto > * {
+  flex: 1;
 }
 
 .contenedor {
   height: 35vh;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  width: 100vw;
+  margin: auto;
   align-items: center;
   gap: 10px;
 }
 
 .contenedor div {
   height: 250px;
-  width: 465px;
+  width: 100%;
   background: lightgray;
   border: 2 px solid black;
   text-align: center;
-padding:80px;
+  padding: 80px;
 }
 
 .contenedorr {
