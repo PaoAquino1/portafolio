@@ -113,6 +113,11 @@ body {
 }
 
 .contenedor {
+  display: grid;
+  gap: 50px;
+}
+
+.seccion {
   height: 35vh;
   display: flex;
   /* justify-content: center; */
@@ -123,16 +128,18 @@ body {
   gap: 10px;
 }
 
-.contenedor div {
-  height: 250px;
+.seccion div {
+  height: 350px;
   width: 100%;
   background: lightgray;
   border: 2 px solid black;
   text-align: center;
   padding: 80px;
 }
+/* .contenedor div + div {
 
-.contenedorr {
+
+/* .contenedorr {
   height: 45vh;
   display: flex;
   justify-content: center;
@@ -146,4 +153,4 @@ body {
   border: px solid black;
   text-align: center;
   padding: 80px;
-}
+} */
