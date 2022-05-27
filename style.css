@@ -82,10 +82,15 @@ body {
   display: grid;
   grid-template-rows: auto auto 1fr;
 }
-/* Menu */
+/* Menu HAMBURGUESA y contacto*/
 .menu {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  justify-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.menu li:nth-child(2){
+ margin-left: auto;
 }
 /* Logo */
 .logo {
@@ -154,3 +159,35 @@ body {
   text-align: center;
   padding: 80px;
 } */
+
+/* Proyecto individual */
+.proyecto-individual .home {
+  height: auto;
+  display: block;
+}
+.proyecto-individual .portafolio {
+  display: flex;
+  position: relative;
+  /* font-size: 145px;
+  text-transform: uppercase;
+  margin-top: auto; */
+  font-size: 190px;
+  text-transform: uppercase;
+  /* margin-top: auto; */
+  margin-top: 30px;
+  line-height: 1;
+  text-align: center;
+  margin-block-end: 55px;
+  border-bottom: 2px solid black;
+}
+.proyecto-individual .portafolio::after {
+  font-size: 20px;
+  content: '2002';
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.proyecto-individual .descripcion {
+  max-width: 90vw;
+  margin-inline: auto;
+}
