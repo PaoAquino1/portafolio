@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Paola - Stussy </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body div class="manual-tipo">
+  <!-- menu  -->
+  <ul class="menu">
+    <a href="./index.html">
+      <li>
+        Proyectos
+      </li>
+    </a>
+    <a href="./Contacto.html">
+      <li>
+        Contacto
+      </li>
+    </a>
+  </ul>
+  <!-- logo  -->
+  <a href="./Paola sobre mi.html">
+    <h1 class="logo">
+      Paola Aquino
+    </h1>
+  </a>
+  <!-- portafolio  -->
+  <h2 class="portafolio">
+    Ilustración
+  </h2>
+  </div>
+  <div class="bla">Diseño de dos ilustraciones CUTAWAY, la primera basa en el oso de Kanye West por Takashi Murakami. Sunga ilustración acerca del jaguar, estas se usaron para el desarrollo de infografías.</div>
+
+  <!-- <div class="proyecto"> -->
+
+  <div class="centrado">
+
+
+  <img src="https://res.cloudinary.com/paolaquino1234/image/upload/v1654269637/PORTAA/info/kanye_bear_ywt8sk.png"
+    alt="">
+  </div>
+
+  <div> <img src="https://res.cloudinary.com/paolaquino1234/image/upload/v1654269637/PORTAA/info/kanye_bear1_i4f48m.jpg"
+      alt="">
+  </div>
+  <div> <img src="https://res.cloudinary.com/paolaquino1234/image/upload/v1654269638/PORTAA/info/jaguar_usmxcz.png"
+      alt="">
+  </div>
+
+  <div> <img src="https://res.cloudinary.com/paolaquino1234/image/upload/v1654269638/PORTAA/info/info_xic74e.jpg"
+      alt="">
+  </div>
+
+
+</body>
+
+</html>
