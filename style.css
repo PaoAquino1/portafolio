@@ -76,13 +76,23 @@ body {
   color: var(--black);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* para el click */
+a:hover {
+  color:grey;
+  opacity: 0.6;
+}
+
 /* Home */
 .home {
   height: 100vh;
   display: grid;
   grid-template-rows: auto auto 1fr;
 }
-/* Menu HAMBURGUESA y contacto*/
+/* Menu contacto*/
 .menu {
   display: flex;
   justify-items: center;
@@ -94,15 +104,14 @@ body {
 }
 /* Logo */
 .logo {
-  font-weight: 80;
+  font-weight: 90;
   padding: 1rem;
+  font-size: 20px;
 }
 /* Portafolio */
 .portafolio {
-  /* font-size: 145px;
-  text-transform: uppercase;
-  margin-top: auto; */
   font-size: 190px;
+
   text-transform: uppercase;
   margin-top: auto;
   line-height: 1.2;
@@ -120,6 +129,9 @@ body {
 .contenedor {
   display: grid;
   gap: 50px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
 }
 
 .seccion {
@@ -131,63 +143,71 @@ body {
   margin: auto;
   align-items: center;
   gap: 10px;
-}
 
-.seccion div {
-  height: 350px;
-  width: 100%;
-  background: lightgray;
-  border: 2 px solid black;
-  text-align: center;
-  padding: 80px;
 }
-/* .contenedor div + div {
-
-
-/* .contenedorr {
-  height: 45vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.contenedorr div {
-  height: 250px;
-  width: 465px;
-  background: lightgray;
-  border: px solid black;
-  text-align: center;
-  padding: 80px;
-} */
 
 /* Proyecto individual */
 .proyecto-individual .home {
-  height: auto;
+  height: 320px;
   display: block;
 }
 .proyecto-individual .portafolio {
   display: flex;
   position: relative;
-  /* font-size: 145px;
   text-transform: uppercase;
-  margin-top: auto; */
-  font-size: 190px;
-  text-transform: uppercase;
-  /* margin-top: auto; */
   margin-top: 30px;
   line-height: 1;
-  text-align: center;
+text-align: center;
   margin-block-end: 55px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 .proyecto-individual .portafolio::after {
   font-size: 20px;
-  content: '2002';
+  content: '2022';
+  position: absolute;
+  bottom: 28px;
+  right: 35px;
+}
+
+/* Ano de ficha ILUSTRACION inicio */
+.manual-tipo .portafolio {
+  position: relative;
+}
+.manual-tipo .portafolio::after {
+  font-size: 20px;
+  content: '2021';
   position: absolute;
   bottom: 30px;
-  right: 30px;
+  right: 60px;
 }
+/* Ano de ficha fin  copio y pego MT*/
+
 .proyecto-individual .descripcion {
   max-width: 90vw;
   margin-inline: auto;
 }
+.bla {
+
+  padding: 50px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+ .manual-tipo .portafolio::after {
+  font-size: 20px;
+  content: '2022';
+  position: absolute;
+  bottom: 560px;
+  right: 1px;
+ }
+
+
+/* Utilidades */
+/* .centrado {
+  display: grid;
+}
+
+.centrado>* {
+  margin: auto;
+} */
