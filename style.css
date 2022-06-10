@@ -211,3 +211,17 @@ Utilidades */
 .centrado>* {
   margin: auto;
 }
+@media screen and (max-width: 600px) {
+  .portafolio {
+  font-size: 40px;
+    padding-left: 80px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portafolio {
+  font-size: 40px;
+    padding-left: 80px;
+    overflow: hidden;
+  }
+}
