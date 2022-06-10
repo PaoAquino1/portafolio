@@ -203,11 +203,11 @@ text-align: center;
  }
 
 
-/* Utilidades */
-/* .centrado {
+Utilidades */
+ .centrado {
   display: grid;
 }
 
 .centrado>* {
   margin: auto;
-} */
+}
